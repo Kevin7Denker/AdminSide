@@ -144,7 +144,7 @@ function Dashboard({ setAuth }: DashboardProps) {
 
   const fetchDados = async () => {
     try {
-      const response = await api.get("/");
+      const response = await api.get("");
       setDados(response.data);
     } catch (err: any) {
       if (err.response && err.response.data) {

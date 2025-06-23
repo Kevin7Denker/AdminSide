@@ -1,5 +1,6 @@
 <?php
 
+
 header("Content-Type: application/json");
 header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Headers: Authorization, Content-Type");
@@ -45,7 +46,7 @@ class Database {
 
 //  Autenticação JWT
 class Auth {
-    private $key = "OLA_PROSTIRANHAS_EU_QUERO_APRESENTAR_O_MEU_AMIGUINHO_O_PINTAO";
+    private $key = "SENHA_ULTRA_SECRETA_8000";
     private $issuer = "http://localhost";
     private $audience = "http://localhost";
     private $expiration_time = 3600;
